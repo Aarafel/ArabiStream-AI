@@ -1,0 +1,11 @@
+streamlit
+openai-whisper
+sentence-transformers
+faiss-cpu
+requests
+pandas
+numpy
+jiwer
+rouge-score
+plotly
+setuptools

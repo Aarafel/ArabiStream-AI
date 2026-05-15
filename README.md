@@ -2,20 +2,20 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)](https://huggingface.co/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 An end-to-end pipeline designed to bridge the gap between raw Arabic audio and actionable intelligence. This system leverages state-of-the-art AI models to transcribe, summarize, and index Arabic speech for high-precision semantic retrieval.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **ASR (Speech-to-Text):** High-accuracy transcription using OpenAI Whisper Large-v3-Turbo.
 - **Summarization:** Concise Arabic abstractive summarization via Qwen2.5-1.5B.
 - **Semantic Search:** Fast and accurate retrieval using multilingual embeddings and FAISS vector indexing.
 - **Interactive UI:** A standalone Gradio application for real-time processing and search.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 graph TD
@@ -30,7 +30,7 @@ graph TD
 
 ---
 
-## 📊 Performance Analysis
+##  Performance Analysis
 
 We evaluated the system across all three stages using standard NLP metrics.
 
@@ -48,7 +48,7 @@ We evaluated the system across all three stages using standard NLP metrics.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── app/                 # Standalone Gradio Application
@@ -65,7 +65,7 @@ We evaluated the system across all three stages using standard NLP metrics.
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Local App
 To run the interactive web interface:
@@ -90,7 +90,7 @@ Each notebook in the `notebooks/` directory is self-contained and optimized for 
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 | Component | Model | Source |
 |-----------|-------|--------|
@@ -101,8 +101,7 @@ Each notebook in the `notebooks/` directory is self-contained and optimized for 
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 🤝 References
 - Radford, A., et al. (2023). *Robust Speech Recognition via Large-Scale Weak Supervision.*
